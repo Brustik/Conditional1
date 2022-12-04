@@ -23,6 +23,18 @@ public class Main {
             System.out.println("Еще маленький, ходит в детсад");
         }
 
+        //Задаине 3
+        int totalVanPlaces = 102;
+        int vanSeatPlaces = 60;
+        int passangers = 49;
+        if (passangers >= totalVanPlaces) {
+            System.out.println("Вагон переполнен");
+        } else if (passangers >= vanSeatPlaces) {
+            System.out.println("В вагоне остались только стоячие места");
+        } else {
+            System.out.println("В вагоне еще остались сидячие места");
+        }
+
 
 
 

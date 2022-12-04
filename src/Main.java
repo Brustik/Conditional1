@@ -56,6 +56,18 @@ public class Main {
             System.out.println("Ребенку можно кататься на атракционе одному");
         }
 
+        //Задание 3.3
+        int one = 16;
+        int two = 22;
+        int three = 5;
+        if (one > two && one > three) {
+            System.out.println("Первое число большее");
+        } else if (two > one && two > three) {
+            System.out.println("Второе число большее");
+        } else {
+            System.out.println("Третье число большее");
+        }
+
 
 
 
